@@ -1,0 +1,5 @@
+CREATE TABLE tbl_categories (
+    id INTEGER NOT NULL PRIMARY KEY AUTO_INCREMENT,
+    parent_id INTEGER,
+    cat_name VARCHAR(128) NOT NULL
+);
